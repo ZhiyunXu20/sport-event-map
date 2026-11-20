@@ -1,0 +1,501 @@
+{
+ "generated": "sample",
+ "races": [
+  {
+   "id": "20250921-001",
+   "date": "2025-09-21",
+   "country": "DE",
+   "name": {
+    "en": "Berlin Marathon",
+    "zh": "柏林马拉松"
+   },
+   "city": {
+    "en": "Berlin",
+    "zh": "柏林"
+   },
+   "lat": 52.5163,
+   "lng": 13.3777,
+   "loc_precision": "venue",
+   "geo": {
+    "path": [
+     "DE",
+     "DE-BE",
+     "DE-BE"
+    ]
+   },
+   "sport": "road",
+   "category": "marathon",
+   "distance_km": 42.195,
+   "elev_m": null,
+   "status": "finished",
+   "edition": 51,
+   "time": null,
+   "time_source": null,
+   "tags": [
+    "wmm"
+   ],
+   "links": {
+    "website": "https://www.bmw-berlin-marathon.com/",
+    "strava": null,
+    "strava_legs": null
+   }
+  },
+  {
+   "id": "20251026-002",
+   "date": "2025-10-26",
+   "country": "DE",
+   "name": {
+    "en": "Frankfurt Marathon",
+    "zh": "法兰克福马拉松"
+   },
+   "city": {
+    "en": "Frankfurt",
+    "zh": "法兰克福"
+   },
+   "lat": 50.1117,
+   "lng": 8.6512,
+   "loc_precision": "venue",
+   "geo": {
+    "path": [
+     "DE",
+     "DE-HE",
+     "DE-HE"
+    ]
+   },
+   "sport": "road",
+   "category": "marathon",
+   "distance_km": 42.195,
+   "elev_m": null,
+   "status": "finished",
+   "edition": null,
+   "time": null,
+   "time_source": null,
+   "tags": [
+    "emc"
+   ],
+   "links": {
+    "website": "https://www.frankfurt-marathon.com/",
+    "strava": null,
+    "strava_legs": null
+   }
+  },
+  {
+   "id": "20250629-003",
+   "date": "2025-06-29",
+   "country": "DE",
+   "name": {
+    "en": "IRONMAN Frankfurt",
+    "zh": "法兰克福 IRONMAN"
+   },
+   "city": {
+    "en": "Frankfurt",
+    "zh": "法兰克福"
+   },
+   "lat": 50.0597,
+   "lng": 8.7016,
+   "loc_precision": "venue",
+   "geo": {
+    "path": [
+     "DE",
+     "DE-HE",
+     "DE-HE"
+    ]
+   },
+   "sport": "triathlon",
+   "category": "tri_other",
+   "distance_km": 226,
+   "elev_m": null,
+   "status": "finished",
+   "edition": null,
+   "time": null,
+   "time_source": null,
+   "tags": [
+    "ironman"
+   ],
+   "links": {
+    "website": "https://www.ironman.com/",
+    "strava": null,
+    "strava_legs": null
+   }
+  },
+  {
+   "id": "20250511-004",
+   "date": "2025-05-11",
+   "country": "DK",
+   "name": {
+    "en": "Copenhagen Marathon",
+    "zh": "哥本哈根马拉松"
+   },
+   "city": {
+    "en": "Copenhagen",
+    "zh": "哥本哈根"
+   },
+   "lat": 55.6761,
+   "lng": 12.5683,
+   "loc_precision": "venue",
+   "geo": {
+    "path": [
+     "DK",
+     "DK-84",
+     "DK-84"
+    ]
+   },
+   "sport": "road",
+   "category": "marathon",
+   "distance_km": 42.195,
+   "elev_m": null,
+   "status": "finished",
+   "edition": null,
+   "time": null,
+   "time_source": null,
+   "tags": [
+    "superhalfs"
+   ],
+   "links": {
+    "website": null,
+    "strava": null,
+    "strava_legs": null
+   }
+  },
+  {
+   "id": "20251019-005",
+   "date": "2025-10-19",
+   "country": "NL",
+   "name": {
+    "en": "Amsterdam Marathon",
+    "zh": "阿姆斯特丹马拉松"
+   },
+   "city": {
+    "en": "Amsterdam",
+    "zh": "阿姆斯特丹"
+   },
+   "lat": 52.3434,
+   "lng": 4.854,
+   "loc_precision": "venue",
+   "geo": {
+    "path": [
+     "NL",
+     "NL-NH",
+     "NL-NH"
+    ]
+   },
+   "sport": "road",
+   "category": "marathon",
+   "distance_km": 42.195,
+   "elev_m": null,
+   "status": "finished",
+   "edition": 50,
+   "time": null,
+   "time_source": null,
+   "tags": [
+    "emc"
+   ],
+   "links": {
+    "website": null,
+    "strava": null,
+    "strava_legs": null
+   }
+  },
+  {
+   "id": "20250427-006",
+   "date": "2025-04-27",
+   "country": "GB",
+   "name": {
+    "en": "London Marathon",
+    "zh": "伦敦马拉松"
+   },
+   "city": {
+    "en": "London",
+    "zh": "伦敦"
+   },
+   "lat": 51.5033,
+   "lng": -0.13,
+   "loc_precision": "venue",
+   "geo": {
+    "path": [
+     "GB",
+     "GB-ENG",
+     "GB-WSM"
+    ]
+   },
+   "sport": "road",
+   "category": "marathon",
+   "distance_km": 42.195,
+   "elev_m": null,
+   "status": "finished",
+   "edition": 45,
+   "time": null,
+   "time_source": null,
+   "tags": [
+    "wmm"
+   ],
+   "links": {
+    "website": "https://www.tcslondonmarathon.com/",
+    "strava": null,
+    "strava_legs": null
+   }
+  },
+  {
+   "id": "20250427-007",
+   "date": "2025-04-27",
+   "country": "GB",
+   "name": {
+    "en": "Manchester Marathon",
+    "zh": "曼彻斯特马拉松"
+   },
+   "city": {
+    "en": "Manchester",
+    "zh": "曼彻斯特"
+   },
+   "lat": 53.4633,
+   "lng": -2.283,
+   "loc_precision": "venue",
+   "geo": {
+    "path": [
+     "GB",
+     "GB-ENG",
+     "GB-MAN"
+    ]
+   },
+   "sport": "road",
+   "category": "marathon",
+   "distance_km": 42.195,
+   "elev_m": null,
+   "status": "finished",
+   "edition": null,
+   "time": null,
+   "time_source": null,
+   "tags": [],
+   "links": {
+    "website": null,
+    "strava": null,
+    "strava_legs": null
+   }
+  },
+  {
+   "id": "20250309-008",
+   "date": "2025-03-09",
+   "country": "GB",
+   "name": {
+    "en": "Cambridge Half Marathon",
+    "zh": "剑桥半程马拉松"
+   },
+   "city": {
+    "en": "Cambridge",
+    "zh": "剑桥"
+   },
+   "lat": 52.2053,
+   "lng": 0.1218,
+   "loc_precision": "venue",
+   "geo": {
+    "path": [
+     "GB",
+     "GB-ENG",
+     "GB-CAM"
+    ]
+   },
+   "sport": "road",
+   "category": "half",
+   "distance_km": 21.0975,
+   "elev_m": null,
+   "status": "finished",
+   "edition": null,
+   "time": null,
+   "time_source": null,
+   "tags": [],
+   "links": {
+    "website": null,
+    "strava": null,
+    "strava_legs": null
+   }
+  },
+  {
+   "id": "20250525-009",
+   "date": "2025-05-25",
+   "country": "GB",
+   "name": {
+    "en": "Liverpool 10K",
+    "zh": "利物浦 10 公里"
+   },
+   "city": {
+    "en": "Liverpool",
+    "zh": "利物浦"
+   },
+   "lat": 53.4053,
+   "lng": -2.9946,
+   "loc_precision": "venue",
+   "geo": {
+    "path": [
+     "GB",
+     "GB-ENG",
+     "GB-LIV"
+    ]
+   },
+   "sport": "road",
+   "category": "10k",
+   "distance_km": 10,
+   "elev_m": null,
+   "status": "finished",
+   "edition": null,
+   "time": null,
+   "time_source": null,
+   "tags": [],
+   "links": {
+    "website": null,
+    "strava": null,
+    "strava_legs": null
+   }
+  },
+  {
+   "id": "20251130-010",
+   "date": "2025-11-30",
+   "country": "CN",
+   "name": {
+    "en": "Shanghai Marathon",
+    "zh": "上海马拉松"
+   },
+   "city": {
+    "en": "Shanghai",
+    "zh": "上海"
+   },
+   "lat": 31.24,
+   "lng": 121.49,
+   "loc_precision": "venue",
+   "geo": {
+    "path": [
+     "CN",
+     "CN-SH",
+     "310101"
+    ]
+   },
+   "sport": "road",
+   "category": "marathon",
+   "distance_km": 42.195,
+   "elev_m": null,
+   "status": "finished",
+   "edition": null,
+   "time": null,
+   "time_source": null,
+   "tags": [],
+   "links": {
+    "website": null,
+    "strava": null,
+    "strava_legs": null
+   }
+  },
+  {
+   "id": "20250420-011",
+   "date": "2025-04-20",
+   "country": "CN",
+   "name": {
+    "en": "Suzhou Half Marathon",
+    "zh": "苏州半程马拉松"
+   },
+   "city": {
+    "en": "Suzhou",
+    "zh": "苏州"
+   },
+   "lat": 31.318,
+   "lng": 120.67,
+   "loc_precision": "venue",
+   "geo": {
+    "path": [
+     "CN",
+     "CN-JS",
+     "320500"
+    ]
+   },
+   "sport": "road",
+   "category": "half",
+   "distance_km": 21.0975,
+   "elev_m": null,
+   "status": "finished",
+   "edition": null,
+   "time": null,
+   "time_source": null,
+   "tags": [],
+   "links": {
+    "website": null,
+    "strava": null,
+    "strava_legs": null
+   }
+  },
+  {
+   "id": "20251214-012",
+   "date": "2025-12-14",
+   "country": "CN",
+   "name": {
+    "en": "Guangzhou Marathon",
+    "zh": "广州马拉松"
+   },
+   "city": {
+    "en": "Guangzhou",
+    "zh": "广州"
+   },
+   "lat": 23.12,
+   "lng": 113.32,
+   "loc_precision": "venue",
+   "geo": {
+    "path": [
+     "CN",
+     "CN-GD",
+     "440100"
+    ]
+   },
+   "sport": "road",
+   "category": "marathon",
+   "distance_km": 42.195,
+   "elev_m": null,
+   "status": "finished",
+   "edition": null,
+   "time": null,
+   "time_source": null,
+   "tags": [],
+   "links": {
+    "website": null,
+    "strava": null,
+    "strava_legs": null
+   }
+  },
+  {
+   "id": "20250316-013",
+   "date": "2025-03-16",
+   "country": "CN",
+   "name": {
+    "en": "Kunming Trail 50K",
+    "zh": "昆明越野 50 公里"
+   },
+   "city": {
+    "en": "Kunming",
+    "zh": "昆明"
+   },
+   "lat": 25.04,
+   "lng": 102.71,
+   "loc_precision": "venue",
+   "geo": {
+    "path": [
+     "CN",
+     "CN-YN",
+     "530100"
+    ]
+   },
+   "sport": "trail",
+   "category": "trail_50k",
+   "distance_km": 50,
+   "elev_m": null,
+   "status": "finished",
+   "edition": 1,
+   "time": null,
+   "time_source": null,
+   "tags": [
+    "itra_2"
+   ],
+   "links": {
+    "website": null,
+    "strava": null,
+    "strava_legs": null
+   }
+  }
+ ],
+ "names": {}
+}

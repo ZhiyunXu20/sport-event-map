@@ -1,0 +1,8 @@
+.DS_Store
+# private inputs and reports from tools/
+*_full.json
+publish_rules.json
+publish_report.md
+
+# your own race data (kept private; see README)
+data/

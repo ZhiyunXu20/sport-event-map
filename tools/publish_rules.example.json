@@ -1,0 +1,8 @@
+{
+  "use_public_column": true,
+  "hide_ids": [{ "id": "20230101-001", "note": "example" }],
+  "hide_date_ranges": [{ "from": "2024-12-01", "to": "2025-07-31", "note": "example range" }],
+  "hide_sports": [],
+  "hide_tags": [],
+  "hide_countries": []
+}
