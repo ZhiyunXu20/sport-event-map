@@ -30,17 +30,17 @@ variables:
   # Set DEPLOY_ENABLED=true (and the secret SWA_DEPLOYMENT_TOKEN) in the pipeline's Variables
   # to turn on the Deploy stage. Without them the pipeline is CI only.
 
-pool:
-  ${{ if eq(parameters.agentPool, 'hosted') }}:
-    vmImage: ubuntu-latest
-  ${{ else }}:
-    name: Default
-
 stages:
   - stage: Validate
     displayName: Validate data and code
     jobs:
       - job: validate
+        # Conditional pool must be set per job (not at the pipeline root).
+        pool:
+          ${{ if eq(parameters.agentPool, 'hosted') }}:
+            vmImage: ubuntu-latest
+          ${{ else }}:
+            name: Default
         steps:
           - ${{ if eq(parameters.agentPool, 'hosted') }}:
               - task: UsePythonVersion@0
@@ -69,6 +69,12 @@ stages:
     dependsOn: Validate
     jobs:
       - job: pytest
+        # Conditional pool must be set per job (not at the pipeline root).
+        pool:
+          ${{ if eq(parameters.agentPool, 'hosted') }}:
+            vmImage: ubuntu-latest
+          ${{ else }}:
+            name: Default
         steps:
           - ${{ if eq(parameters.agentPool, 'hosted') }}:
               - task: UsePythonVersion@0
@@ -99,6 +105,12 @@ stages:
     dependsOn: Test
     jobs:
       - job: package
+        # Conditional pool must be set per job (not at the pipeline root).
+        pool:
+          ${{ if eq(parameters.agentPool, 'hosted') }}:
+            vmImage: ubuntu-latest
+          ${{ else }}:
+            name: Default
         steps:
           - task: CopyFiles@2
             displayName: Copy site files
