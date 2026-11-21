@@ -22,7 +22,7 @@ parameters:
   - name: agentPool
     displayName: Agent
     type: string
-    default: hosted
+    default: selfhosted
     values: [hosted, selfhosted]
 
 variables:
