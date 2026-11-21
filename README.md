@@ -96,6 +96,14 @@ python3 -I tools/publish_filter.py races_full.json publish_rules.json data/races
 
 Rules can hide races by id, by date range, by sport, by tag or by country, or by a `public` column in the table. See `tools/publish_rules.example.json`. The real rules file and the full table are listed in `.gitignore`.
 
+## Checks and CI
+
+`tools/validate_races.py` checks a dataset before it is published: required fields, real dates, coordinates in range, known sports and categories, area keys that exist in the boundary files, and safe links. The data tools have unit tests (`pytest`). An Azure Pipelines build runs the validation and tests on every pull request, packages the site and can deploy it to Azure Static Web Apps. See [docs/azure-pipelines.md](docs/azure-pipelines.md).
+
+```sh
+python3 -I tools/validate_races.py data/races.json
+```
+
 ## Built with
 
 | Resource | Used for | Licence or terms |

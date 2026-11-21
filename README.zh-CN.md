@@ -96,6 +96,14 @@ python3 -I tools/publish_filter.py races_full.json publish_rules.json data/races
 
 规则可以按 id、日期区间、运动类型、标签、国家隐藏，也可以用表里的 `public` 列。格式见 `tools/publish_rules.example.json`。真正的规则文件和完整表已写进 `.gitignore`。
 
+## 数据检查与 CI
+
+`tools/validate_races.py` 在发布前检查数据：必填字段、日期是否真实、坐标范围、项目和类别是否有对应文字、区域编号是否存在于边界文件、链接是否安全。数据工具有单元测试（`pytest`）。Azure Pipelines 会在每个拉取请求上跑检查和测试，打包站点，并可部署到 Azure Static Web Apps。配置步骤见 [docs/azure-pipelines.md](docs/azure-pipelines.md)。
+
+```sh
+python3 -I tools/validate_races.py data/races.json
+```
+
 ## 使用的开源资源
 
 | 资源 | 用途 | 协议或条款 |

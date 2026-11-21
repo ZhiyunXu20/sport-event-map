@@ -6,3 +6,10 @@ publish_report.md
 
 # your own race data (kept private; see README)
 data/
+
+# test and CI output
+__pycache__/
+.pytest_cache/
+.coverage
+coverage.xml
+test-results.xml
