@@ -4,7 +4,7 @@
 
 A hierarchical drill-down map of sport events. It starts from an equal-area world map and goes level by level down to a street map, where each point is a race start line and each card shows the race. It is a static site with no backend and no API keys.
 
-**Live demo:** https://zhiyunxu20.github.io/sport-event-map/
+**Live demo:** [https://zhiyunxu20.github.io/sport-event-map/](https://zhiyunxu20.github.io/projects/sport-event-map/)
 
 The demo uses a small sample dataset of well-known races (`examples/races.sample.json`). My own race history runs on the same code on my personal site; that data is not in this repository.
 
